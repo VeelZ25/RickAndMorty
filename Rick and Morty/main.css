@@ -1,0 +1,81 @@
+﻿body {
+    background-image: url("img/background.png");
+    background-size: 100%;
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+    /*height: 100vh;*/ /* Высота на весь экран */
+    /*margin: 0;*/ /* Убираем отступы */
+}
+
+.logo-head {
+    margin-top: 3%;
+    text-align: center;
+}
+
+#ship {
+    margin-top: 6%;
+    text-align: center;
+    animation: move 7s linear;
+}
+
+.footer-site {
+    display: flex;
+    justify-content: space-between;
+
+    background-color: #272727;
+
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.line {
+    margin-left: 36px;
+}
+
+.footer-left-text {
+    font-size: 20px;
+    color: white;
+    position: relative;
+    top: -40%;
+    margin-left: 36px;
+    bottom: 36px;
+}
+
+.footer-right-text {
+    font-size: 20px;
+    color: white;
+    margin-right: 34px;
+}
+
+
+.logo-git {
+    position: relative;
+    top: 45px;
+    left: 160px;
+    margin-left: 23px;
+
+}
+
+
+#ship {
+    
+    animation: move 7s linear; 
+}
+
+
+@keyframes move {
+    0% {
+        transform: translateX(50%);
+    }
+
+    70% {
+        transform: translateX(-38%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
